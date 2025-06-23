@@ -3,6 +3,11 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["typedSql"]
+}
+
 // model Post, Profile, User are copied
 // from https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/using-prisma-migrate-typescript-postgresql#creating-the-database-schema
 
