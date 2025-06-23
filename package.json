@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.0.3",
+    "expect-type": "^1.2.1",
     "prisma": "^6.10.1",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
